@@ -1,0 +1,34 @@
+body {
+    padding: 30px;
+}
+h1 {
+text-shadow: #000 0px 0px 10px;
+color: #fff;
+}
+ul {
+border-radius: 5px;
+margin: 10vh;
+padding-left: 100px;
+list-style: square;
+color: red;
+background-color: aquamarine;
+}x
+ol {
+list-style: lower-roman;
+color: blue;
+}
+.fotinha {
+width: 96px;
+height: 96px;
+border-radius: 50%;
+border: red solid 2px;
+box-shadow: #333 -5px 5px 10px;
+transition: all 0.5s;
+}
+
+.fotinha:hover {
+border-radius: 5%;
+cursor: pointer;
+transition: all 2s;
+transform: translateX(150px);
+}
