@@ -70,7 +70,14 @@
       document.getElementById('nome')
       .value
   }
-</script>
+console.log('antes do fetch');
+  fetch('http://localhost:3000/clientes')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+  });
+  console.log('depois do fetch');
+  </script>
 
   </body>
 </html>
